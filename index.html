@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#183b4d">
   <title>錠剤・カプセル棚卸し</title>
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
   <header class="site-header">
@@ -42,6 +42,7 @@
           <label for="manual-weight">実測した1錠・1カプセルの重量 <span class="unit">g</span></label>
           <input id="manual-weight" class="numeric" inputmode="decimal" autocomplete="off" placeholder="例：0.185" aria-describedby="manual-weight-hint">
           <p id="manual-weight-hint" class="hint">1個だけを容器の重さを除いて量ってください。一覧に追加すると、このブラウザーに重量を保存します。製剤ごとの重量差に注意してください。</p>
+          <button id="clear-manual-weight" class="text-button clear-manual-weight" type="button" hidden>保存済みの実測重量を消去</button>
         </div>
         <div class="fields">
           <div><label for="gross">測定重量 <span class="unit">g</span></label><input id="gross" class="numeric" inputmode="decimal" autocomplete="off" placeholder="例：12.345" required></div>
@@ -70,6 +71,6 @@
   </main>
 
   <footer class="shell footer no-print">製剤重量はPMDA公開の添付文書と利用者確認値を参照。個々の製剤重量にはばらつきがあるため、数量は推定値です。<span id="data-date"></span></footer>
-  <script src="app.js?v=4" defer></script>
+  <script src="app.js?v=5" defer></script>
 </body>
 </html>
