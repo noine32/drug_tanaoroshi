@@ -101,6 +101,7 @@ function renderSelected() {
   const drug = state.selected;
   $("manual-weight-field").hidden = !drug || drug.weightG !== null;
   $("manual-weight").value = drug?.weightG === null && state.manualWeights[drug.id] ? state.manualWeights[drug.id] : "";
+  $("clear-manual-weight").hidden = !drug || !state.manualWeights[drug.id];
   if (!drug) { root.className = "selected empty"; root.textContent = "左の一覧から医薬品を選択してください。"; updateCalculation(); return; }
   root.className = "selected";
   const name = document.createElement("strong"); name.textContent = drug.name;
@@ -209,6 +210,7 @@ $("measure-form").addEventListener("submit", event => {
     state.manualWeights[drug.id] = result.unitWeight;
     try { localStorage.setItem(MANUAL_WEIGHT_KEY, JSON.stringify(state.manualWeights)); }
     catch { $("form-error").textContent = "実測重量をブラウザーに保存できませんでした。"; }
+    $("clear-manual-weight").hidden = false;
     renderResults();
   }
   state.ledger.push({ id: drug.id, name: drug.name, unit: drug.unit, quantity: result.quantity, net: result.net,
@@ -218,6 +220,18 @@ $("measure-form").addEventListener("submit", event => {
   $("form-status").textContent = `${drug.name}を${result.quantity.toLocaleString("ja-JP")}${drug.unit}追加しました。`;
 });
 $("print").addEventListener("click", () => { renderLedger(); window.print(); });
+$("clear-manual-weight").addEventListener("click", () => {
+  const drug = state.selected;
+  if (!drug || drug.weightG !== null || !state.manualWeights[drug.id]) return;
+  if (!confirm(`${drug.name}の保存済み実測重量を消去しますか？ 既に追加した棚卸し記録は残ります。`)) return;
+  delete state.manualWeights[drug.id];
+  try { localStorage.setItem(MANUAL_WEIGHT_KEY, JSON.stringify(state.manualWeights)); }
+  catch { $("form-error").textContent = "実測重量の保存情報を更新できませんでした。"; }
+  $("manual-weight").value = "";
+  $("clear-manual-weight").hidden = true;
+  $("form-status").textContent = "保存済みの実測重量を消去しました。";
+  renderResults(); updateCalculation();
+});
 $("clear-ledger").addEventListener("click", () => { if (state.ledger.length && confirm("棚卸し一覧をすべて削除しますか？")) { state.ledger = []; saveLedger(); renderLedger(); } });
 
 async function init() {
