@@ -1,0 +1,1095 @@
+{
+  "updated": "2026-09-26",
+  "drugs": [
+    {
+      "id": "1141007F1241",
+      "name": "アセトアミノフェン錠200mg「ケンエー」",
+      "unit": "錠",
+      "weightG": 0.25,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/260024_1141007F1241_1_03",
+      "sourceText": "質量（mg）  | 250\n",
+      "status": "verified"
+    },
+    {
+      "id": "1141007F2060",
+      "name": "アセトアミノフェン錠300mg「ケンエー」",
+      "unit": "錠",
+      "weightG": 0.375,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/260024_1141007F1241_1_03",
+      "sourceText": "質量（mg）  | 375\n",
+      "status": "verified"
+    },
+    {
+      "id": "1141007F2051",
+      "name": "アセトアミノフェン錠300mg「マルイシ」",
+      "unit": "錠",
+      "weightG": 0.327,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/730119_1141007F1195_1_14",
+      "sourceText": "質量  | 327mg",
+      "status": "verified"
+    },
+    {
+      "id": "2139008F2044",
+      "name": "アゾセミド錠30mg「JG」",
+      "unit": "錠",
+      "weightG": 0.095,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/450064_2139008F1064_1_07",
+      "sourceText": "質量  | 95mg",
+      "status": "verified"
+    },
+    {
+      "id": "2139008F1064",
+      "name": "アゾセミド錠60mg「JG」",
+      "unit": "錠",
+      "weightG": 0.19,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/450064_2139008F1064_1_07",
+      "sourceText": "質量  | 190mg",
+      "status": "verified"
+    },
+    {
+      "id": "2189015F2097",
+      "name": "アトルバスタチン錠10mg「NP」",
+      "unit": "錠",
+      "weightG": 0.088,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530100_2189015F1090_3_14",
+      "sourceText": "重量  | 88mg",
+      "status": "verified"
+    },
+    {
+      "id": "2189015F1090",
+      "name": "アトルバスタチン錠5mg「NP」",
+      "unit": "錠",
+      "weightG": 0.072,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530100_2189015F1090_3_14",
+      "sourceText": "重量  | 72mg",
+      "status": "verified"
+    },
+    {
+      "id": "2171022F1207",
+      "name": "アムロジピン錠2.5mg「アメル」",
+      "unit": "錠",
+      "weightG": 0.086,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/672173_2171022F1207_2_08",
+      "sourceText": "質量  | 約86.0mg",
+      "status": "verified"
+    },
+    {
+      "id": "2171022F2203",
+      "name": "アムロジピン錠5mg「アメル」",
+      "unit": "錠",
+      "weightG": 0.17,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/672173_2171022F1207_2_08",
+      "sourceText": "質量 約170.0mg",
+      "status": "verified"
+    },
+    {
+      "id": "3112001F1063",
+      "name": "アルファカルシドール錠0.25μg「アメル」",
+      "unit": "錠",
+      "weightG": 0.0851,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/672173_3112001F1063_2_04",
+      "sourceText": "質量  | 約85.1mg",
+      "status": "verified"
+    },
+    {
+      "id": "3943001F1551",
+      "name": "アロプリノール錠100mg「杏林」",
+      "unit": "錠",
+      "weightG": 0.3,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480209_3943001F1551_3_05",
+      "sourceText": "質量  | 300mg",
+      "status": "verified"
+    },
+    {
+      "id": "2239001F1718",
+      "name": "アンブロキソール塩酸塩錠15mg「クニヒロ」",
+      "unit": "錠",
+      "weightG": 0.12,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/270029_2239001F1718_1_05",
+      "sourceText": "質量  | 120mg",
+      "status": "verified"
+    },
+    {
+      "id": "3999031F1043",
+      "name": "イグラチモド錠25mg「サワイ」",
+      "unit": "錠",
+      "weightG": 0.191,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_3999031F1043_1_03",
+      "sourceText": "質量  | 約191mg",
+      "status": "verified"
+    },
+    {
+      "id": "2362001F2220",
+      "name": "ウルソデオキシコール酸錠100mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.15,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_2362001F1118_1_07",
+      "sourceText": "質量  | 150mg",
+      "status": "verified"
+    },
+    {
+      "id": "2189018F1175",
+      "name": "エゼチミブ錠10mg「日医工」",
+      "unit": "錠",
+      "weightG": 0.1,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530169_2189018F1175_1_05",
+      "sourceText": "質量  | 100.0mg",
+      "status": "verified"
+    },
+    {
+      "id": "2144002F2462",
+      "name": "エナラプリルマレイン酸塩錠5mg「EMEC」",
+      "unit": "錠",
+      "weightG": 0.165,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530258_2144002F1415_2_04",
+      "sourceText": "質量  | 165mg",
+      "status": "verified"
+    },
+    {
+      "id": "2149020N1031",
+      "name": "エブランチルカプセル15mg",
+      "unit": "カプセル",
+      "weightG": null,
+      "approx": false,
+      "source": "",
+      "sourceText": "",
+      "status": "not-listed"
+    },
+    {
+      "id": "1249009F1430",
+      "name": "エペリゾン塩酸塩錠50mg「日新」",
+      "unit": "錠",
+      "weightG": null,
+      "approx": false,
+      "source": "",
+      "sourceText": "",
+      "status": "unverified"
+    },
+    {
+      "id": "3112006M2045",
+      "name": "エルデカルシトールカプセル0.75μg「日医工」",
+      "unit": "カプセル",
+      "weightG": 0.164,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530169_3112006M1049_1_06",
+      "sourceText": "質量  | 164mg",
+      "status": "verified"
+    },
+    {
+      "id": "2190041F2023",
+      "name": "エンレスト錠100mg",
+      "unit": "錠",
+      "weightG": 0.208,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300242_2190041F1027_1_09",
+      "sourceText": "質量  | 0.208g",
+      "status": "verified"
+    },
+    {
+      "id": "2190041F3020",
+      "name": "エンレスト錠200mg",
+      "unit": "錠",
+      "weightG": 0.412,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300242_2190041F1027_1_09",
+      "sourceText": "質量  | 0.412g",
+      "status": "verified"
+    },
+    {
+      "id": "2149044F6093",
+      "name": "オルメサルタンOD錠20mg「日医工」",
+      "unit": "錠",
+      "weightG": 0.16,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530169_2149044F5097_1_12",
+      "sourceText": "質量 160mg",
+      "status": "verified"
+    },
+    {
+      "id": "4490025F4146",
+      "name": "オロパタジン塩酸塩OD錠5mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.18,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_4490025F3140_1_05",
+      "sourceText": "質量  | 180mg",
+      "status": "verified"
+    },
+    {
+      "id": "2149032F1129",
+      "name": "カルベジロール錠10mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.154,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_2149032F1129_1_22",
+      "sourceText": "質量  | 154mg",
+      "status": "verified"
+    },
+    {
+      "id": "2149032F4098",
+      "name": "カルベジロール錠2.5mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.135,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_2149032F1129_1_22",
+      "sourceText": "質量  | 135mg",
+      "status": "verified"
+    },
+    {
+      "id": "2233002F1280",
+      "name": "カルボシステイン錠250mg「サワイ」",
+      "unit": "錠",
+      "weightG": 0.362,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_2233002F1280_1_04",
+      "sourceText": "質量  | 約362mg",
+      "status": "verified"
+    },
+    {
+      "id": "1141007F1063",
+      "name": "カロナール錠200",
+      "unit": "錠",
+      "weightG": 0.3,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/172190_1141007F1063_5_07",
+      "sourceText": "質量  | 300mg",
+      "status": "verified"
+    },
+    {
+      "id": "1179042F1127",
+      "name": "クエチアピン錠25mg「サンド」",
+      "unit": "錠",
+      "weightG": 0.065,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/270428_1179042F1127_1_10",
+      "sourceText": "質量  | 65mg",
+      "status": "verified"
+    },
+    {
+      "id": "3222013F1157",
+      "name": "クエン酸第一鉄Na錠50mg「サワイ」",
+      "unit": "錠",
+      "weightG": 0.546,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_3222013F1157_1_05",
+      "sourceText": "質量  | 約546mg",
+      "status": "verified"
+    },
+    {
+      "id": "3399008F2269",
+      "name": "クロピドグレル錠75mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.196,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_3399008F1262_1_12",
+      "sourceText": "質量  | 196mg",
+      "status": "verified"
+    },
+    {
+      "id": "3961008F6081",
+      "name": "グリメピリドOD錠0.5mg「日医工」",
+      "unit": "錠",
+      "weightG": 0.085,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530169_3961008F4097_1_08",
+      "sourceText": "質量  | 85mg",
+      "status": "verified"
+    },
+    {
+      "id": "3961008F1225",
+      "name": "グリメピリド錠1mg「三和」",
+      "unit": "錠",
+      "weightG": 0.18,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300297_3961008F1225_1_08",
+      "sourceText": "質量  | 180mg",
+      "status": "verified"
+    },
+    {
+      "id": "6219001H1102",
+      "name": "サラゾスルファピリジン腸溶錠500mg「CH」",
+      "unit": "錠",
+      "weightG": 0.655,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/450064_6219001H1102_1_08",
+      "sourceText": "質量  | 655mg",
+      "status": "verified"
+    },
+    {
+      "id": "2149037F2055",
+      "name": "シルニジピン錠10mg「サワイ」",
+      "unit": "錠",
+      "weightG": 0.248,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_2149037F1059_1_07",
+      "sourceText": "質量  | 約248mg",
+      "status": "verified"
+    },
+    {
+      "id": "3399002F4060",
+      "name": "シロスタゾールOD錠100mg「ケミファ」",
+      "unit": "錠",
+      "weightG": 0.25,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530372_3399002F3063_1_02",
+      "sourceText": "質量  | 250.0mg",
+      "status": "verified"
+    },
+    {
+      "id": "3969023F1023",
+      "name": "ジャディアンス錠10mg",
+      "unit": "錠",
+      "weightG": 0.257,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/650168_3969023F1023_1_19",
+      "sourceText": "重さ  | 257mg",
+      "status": "verified"
+    },
+    {
+      "id": "3969010F2030",
+      "name": "ジャヌビア錠50mg",
+      "unit": "錠",
+      "weightG": 0.209,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/170050_3969010F1034_2_36",
+      "sourceText": "質量  | 約209mg",
+      "status": "verified"
+    },
+    {
+      "id": "2171006N1156",
+      "name": "ジルチアゼム塩酸塩徐放カプセル100mg「日医工」",
+      "unit": "カプセル",
+      "weightG": null,
+      "approx": false,
+      "source": "",
+      "sourceText": "",
+      "status": "not-listed"
+    },
+    {
+      "id": "2133001F1590",
+      "name": "スピロノラクトン錠25mg「日医工」",
+      "unit": "錠",
+      "weightG": 0.25,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530169_2133001F1590_1_04",
+      "sourceText": "質量  | 250mg",
+      "status": "verified"
+    },
+    {
+      "id": "1149037F1151",
+      "name": "セレコキシブ錠100mg「日医工」",
+      "unit": "錠",
+      "weightG": 0.18,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530169_1149037F1151_1_10",
+      "sourceText": "質量  | 180mg",
+      "status": "verified"
+    },
+    {
+      "id": "2354003F2375",
+      "name": "センノシド錠12mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.119,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_2354003F2375_1_04",
+      "sourceText": "質量  | 119mg",
+      "status": "verified"
+    },
+    {
+      "id": "2329030F1020",
+      "name": "タケキャブ錠10mg",
+      "unit": "錠",
+      "weightG": null,
+      "approx": false,
+      "source": "",
+      "sourceText": "",
+      "status": "unverified"
+    },
+    {
+      "id": "2329030F2027",
+      "name": "タケキャブ錠20mg",
+      "unit": "錠",
+      "weightG": 0.229,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/400256_2329030F1020_1_16",
+      "sourceText": "質量  | 約229mg",
+      "status": "verified"
+    },
+    {
+      "id": "3969026F1027",
+      "name": "ツイミーグ錠500mg",
+      "unit": "錠",
+      "weightG": 0.569,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/400093_3969026F1027_1_07",
+      "sourceText": "質量  | 約569mg",
+      "status": "verified"
+    },
+    {
+      "id": "2329012M1390",
+      "name": "テプレノンカプセル50mg「日医工P」",
+      "unit": "カプセル",
+      "weightG": null,
+      "approx": false,
+      "source": "",
+      "sourceText": "",
+      "status": "not-listed"
+    },
+    {
+      "id": "2149117F1033",
+      "name": "テラムロ配合錠AP「DSEP」",
+      "unit": "錠",
+      "weightG": 0.248,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/430773_2149117F1033_1_08",
+      "sourceText": "質量  | 約248mg",
+      "status": "verified"
+    },
+    {
+      "id": "2149042F2218",
+      "name": "テルミサルタン錠40mg「日医工」",
+      "unit": "錠",
+      "weightG": null,
+      "approx": false,
+      "source": "",
+      "sourceText": "",
+      "status": "unverified"
+    },
+    {
+      "id": "1190027F1022",
+      "name": "デエビゴ錠2.5mg",
+      "unit": "錠",
+      "weightG": 0.127,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/170033_1190027F1022_1_08",
+      "sourceText": "質量  | 127mg",
+      "status": "verified"
+    },
+    {
+      "id": "1149117F1128",
+      "name": "トアラセット配合錠「オーハラ」",
+      "unit": "錠",
+      "weightG": 0.431,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/180095_1149117F1128_1_09",
+      "sourceText": "質量  | 431mg",
+      "status": "verified"
+    },
+    {
+      "id": "2190006M1210",
+      "name": "トコフェロールニコチン酸エステルカプセル100mg「トーワ」",
+      "unit": "カプセル",
+      "weightG": 0.24,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_2190006M1210_2_04",
+      "sourceText": "質量  | 約240mg",
+      "status": "verified"
+    },
+    {
+      "id": "3969014F1024",
+      "name": "トラゼンタ錠5mg",
+      "unit": "錠",
+      "weightG": 0.185,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/650168_3969014F1024_1_21",
+      "sourceText": "重さ  | 約185mg",
+      "status": "verified"
+    },
+    {
+      "id": "1179037F1053",
+      "name": "トラゾドン塩酸塩錠25mg「アメル」",
+      "unit": "錠",
+      "weightG": 0.1025,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/672173_1179037F1053_3_04",
+      "sourceText": "質量  | 約102.5mg",
+      "status": "verified"
+    },
+    {
+      "id": "1190012F4335",
+      "name": "ドネペジル塩酸塩OD錠5mg「クニヒロ」",
+      "unit": "錠",
+      "weightG": 0.14,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/270029_1190012F3339_1_07",
+      "sourceText": "重量 140mg",
+      "status": "verified"
+    },
+    {
+      "id": "2171017F2172",
+      "name": "ニコランジル錠5mg「トーワ」",
+      "unit": "錠",
+      "weightG": null,
+      "approx": false,
+      "source": "",
+      "sourceText": "",
+      "status": "not-listed"
+    },
+    {
+      "id": "2171014G4118",
+      "name": "ニフェジピンCR錠20mg「ZE」",
+      "unit": "錠",
+      "weightG": 0.1705,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/380087_2171014G3111_1_05",
+      "sourceText": "質量  | 170.5mg",
+      "status": "verified"
+    },
+    {
+      "id": "1149023F1036",
+      "name": "ノイロトロピン錠4単位",
+      "unit": "錠",
+      "weightG": 0.156,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530288_1149023F1036_1_11",
+      "sourceText": "質量  | 156mg",
+      "status": "verified"
+    },
+    {
+      "id": "3399007H1021",
+      "name": "バイアスピリン錠100mg",
+      "unit": "錠",
+      "weightG": 0.137,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/630004_3399007H1021_1_21",
+      "sourceText": "質量  | 137.0mg",
+      "status": "verified"
+    },
+    {
+      "id": "2149041F3295",
+      "name": "バルサルタン錠80mg「日新」",
+      "unit": "錠",
+      "weightG": 0.2286,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530113_2149041F1292_1_08",
+      "sourceText": "重量  | 228.6mg",
+      "status": "verified"
+    },
+    {
+      "id": "2183007G1020",
+      "name": "パルモディアXR錠0.2mg",
+      "unit": "錠",
+      "weightG": null,
+      "approx": false,
+      "source": "",
+      "sourceText": "",
+      "status": "unverified"
+    },
+    {
+      "id": "2316017F2023",
+      "name": "ビオスリー配合OD錠",
+      "unit": "錠",
+      "weightG": 0.1,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480019_2316017B1041_1_08",
+      "sourceText": "質量  | 100mg",
+      "status": "verified"
+    },
+    {
+      "id": "2123016F3088",
+      "name": "ビソプロロールフマル酸塩錠0.625mg「日医工」",
+      "unit": "錠",
+      "weightG": 0.08,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530169_2123016F1131_1_07",
+      "sourceText": "質量 80mg",
+      "status": "verified"
+    },
+    {
+      "id": "2123016F1131",
+      "name": "ビソプロロールフマル酸塩錠2.5mg「日医工」",
+      "unit": "錠",
+      "weightG": 0.09,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530169_2123016F1131_1_07",
+      "sourceText": "質量 90mg",
+      "status": "verified"
+    },
+    {
+      "id": "3134003F1205",
+      "name": "ピリドキサール錠10mg「イセイ」",
+      "unit": "錠",
+      "weightG": 0.24,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/130107_3134003F1205_2_12",
+      "sourceText": "質量  | 240mg",
+      "status": "verified"
+    },
+    {
+      "id": "2325003F2055",
+      "name": "ファモチジン錠20「サワイ」",
+      "unit": "錠",
+      "weightG": 0.12,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_2325003B1065_1_12",
+      "sourceText": "質量  | 約120mg",
+      "status": "verified"
+    },
+    {
+      "id": "4490023F1156",
+      "name": "フェキソフェナジン塩酸塩錠60mg「杏林」",
+      "unit": "錠",
+      "weightG": 0.206,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480209_4490023F1156_1_07",
+      "sourceText": "質量  | 206mg",
+      "status": "verified"
+    },
+    {
+      "id": "3949003F1082",
+      "name": "フェブキソスタット錠10mg「杏林」",
+      "unit": "錠",
+      "weightG": 0.129,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480209_3949003F1082_1_08",
+      "sourceText": "質量  | 129mg",
+      "status": "verified"
+    },
+    {
+      "id": "3949003F2089",
+      "name": "フェブキソスタット錠20mg「杏林」",
+      "unit": "錠",
+      "weightG": 0.129,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480209_3949003F1082_1_08",
+      "sourceText": "質量 129mg",
+      "status": "verified"
+    },
+    {
+      "id": "3969019F2023",
+      "name": "フォシーガ錠10mg",
+      "unit": "錠",
+      "weightG": 0.26,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/670227_3969019F1027_2_17",
+      "sourceText": "質量  | 260mg",
+      "status": "verified"
+    },
+    {
+      "id": "3135001F1025",
+      "name": "フォリアミン錠",
+      "unit": "錠",
+      "weightG": null,
+      "approx": false,
+      "source": "",
+      "sourceText": "",
+      "status": "not-listed"
+    },
+    {
+      "id": "3122007F2063",
+      "name": "フルスルチアミン錠25mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.19,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_3122007F2063_1_04",
+      "sourceText": "質量  | 190mg",
+      "status": "verified"
+    },
+    {
+      "id": "2139005F1060",
+      "name": "フロセミド錠20mg「NP」",
+      "unit": "錠",
+      "weightG": 0.15,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530100_2139005F1060_4_14",
+      "sourceText": "重量  | 150mg",
+      "status": "verified"
+    },
+    {
+      "id": "3399009F1054",
+      "name": "プラスグレル錠3.75mg「日新」",
+      "unit": "錠",
+      "weightG": 0.1045,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530113_3399009F1054_1_02",
+      "sourceText": "重量  | 104.5mg",
+      "status": "verified"
+    },
+    {
+      "id": "2189010F1330",
+      "name": "プラバスタチンNa錠5mg「サワイ」",
+      "unit": "錠",
+      "weightG": 0.085,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_2189010F1330_1_10",
+      "sourceText": "質量  | 約85mg",
+      "status": "verified"
+    },
+    {
+      "id": "1190017F1096",
+      "name": "プレガバリンOD錠25mg「ZE」",
+      "unit": "錠",
+      "weightG": 0.09,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/380087_1190017F1096_1_06",
+      "sourceText": "質量  | 90mg",
+      "status": "verified"
+    },
+    {
+      "id": "1190017F2092",
+      "name": "プレガバリンOD錠75mg「ZE」",
+      "unit": "錠",
+      "weightG": 0.27,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/380087_1190017F1096_1_06",
+      "sourceText": "質量  | 270mg",
+      "status": "verified"
+    },
+    {
+      "id": "2456001F2023",
+      "name": "プレドニゾロン錠1mg(旭化成)",
+      "unit": "錠",
+      "weightG": null,
+      "approx": false,
+      "source": "",
+      "sourceText": "",
+      "status": "unverified"
+    },
+    {
+      "id": "2456001F1434",
+      "name": "プレドニゾロン錠5mg「VTRS」",
+      "unit": "錠",
+      "weightG": 0.085,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/730869_2456001F1434_1_08",
+      "sourceText": "重量  | 85mg",
+      "status": "verified"
+    },
+    {
+      "id": "2171021F2101",
+      "name": "ベニジピン塩酸塩錠4mg「NPI」",
+      "unit": "錠",
+      "weightG": 0.135,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530372_2171021F1067_1_09",
+      "sourceText": "重量  | 135mg",
+      "status": "verified"
+    },
+    {
+      "id": "3399005F1323",
+      "name": "ベラプロストNa錠20μg「NIG」",
+      "unit": "錠",
+      "weightG": 0.085,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/581120_3399005F1323_1_04",
+      "sourceText": "質量  | 85mg",
+      "status": "verified"
+    },
+    {
+      "id": "3969004F1330",
+      "name": "ボグリボース錠0.2mg「武田テバ」",
+      "unit": "錠",
+      "weightG": 0.13,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/400813_3969004F1330_1_03",
+      "sourceText": "質量  | 130mg",
+      "status": "verified"
+    },
+    {
+      "id": "3969009F4030",
+      "name": "ミグリトールOD錠50mg「サワイ」",
+      "unit": "錠",
+      "weightG": 0.2,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_3969009F4030_1_05",
+      "sourceText": "質量  | 約200mg",
+      "status": "verified"
+    },
+    {
+      "id": "2316009F1022",
+      "name": "ミヤBM錠",
+      "unit": "錠",
+      "weightG": 0.35,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/750144_2316009C1026_1_07",
+      "sourceText": "質量  | 350mg",
+      "status": "verified"
+    },
+    {
+      "id": "3136004F2308",
+      "name": "メコバラミン錠500μg「日医工」",
+      "unit": "錠",
+      "weightG": 0.17,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480143_3136004F1107_2_03",
+      "sourceText": "質量  | 約170mg",
+      "status": "verified"
+    },
+    {
+      "id": "3962002F2078",
+      "name": "メトホルミン塩酸塩錠250mgMT「三和」",
+      "unit": "錠",
+      "weightG": 0.285,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300297_3962002F2078_1_13",
+      "sourceText": "質量  | 285mg",
+      "status": "verified"
+    },
+    {
+      "id": "3962002F3074",
+      "name": "メトホルミン塩酸塩錠500mgMT「三和」",
+      "unit": "錠",
+      "weightG": 0.565,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300297_3962002F2078_1_13",
+      "sourceText": "質量  | 565mg",
+      "status": "verified"
+    },
+    {
+      "id": "2399010F2105",
+      "name": "モサプリドクエン酸塩錠5mg「NP」",
+      "unit": "錠",
+      "weightG": 0.14,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530100_2399010F1109_3_06",
+      "sourceText": "重量  | 140mg",
+      "status": "verified"
+    },
+    {
+      "id": "4490026F2288",
+      "name": "モンテルカスト錠10mg「日医工」",
+      "unit": "錠",
+      "weightG": null,
+      "approx": false,
+      "source": "",
+      "sourceText": "",
+      "status": "unverified"
+    },
+    {
+      "id": "4490026F2296",
+      "name": "モンテルカスト錠10mg「日新」",
+      "unit": "錠",
+      "weightG": 0.159,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530113_4490026F2296_2_05",
+      "sourceText": "重量  | 159mg",
+      "status": "verified"
+    },
+    {
+      "id": "2329028F1112",
+      "name": "ラベプラゾールNa錠10mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.134,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_2329028F1112_1_22",
+      "sourceText": "質量  | 134mg",
+      "status": "verified"
+    },
+    {
+      "id": "3999021F1031",
+      "name": "ラロキシフェン塩酸塩錠60mg「サワイ」",
+      "unit": "錠",
+      "weightG": 0.25,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_3999021F1031_1_02",
+      "sourceText": "質量  | 約250mg",
+      "status": "verified"
+    },
+    {
+      "id": "2329023F1071",
+      "name": "ランソプラゾールOD錠15mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.3,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_2329023F1071_1_21",
+      "sourceText": "質量  | 300mg",
+      "status": "verified"
+    },
+    {
+      "id": "2329023F2078",
+      "name": "ランソプラゾールOD錠30mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.6,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_2329023F1071_1_21",
+      "sourceText": "質量  | 600mg",
+      "status": "verified"
+    },
+    {
+      "id": "3399003F1162",
+      "name": "リマプロスト アルファデクス錠5μg「日医工」",
+      "unit": "錠",
+      "weightG": 0.095,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530169_3399003F1111_1_07",
+      "sourceText": "質量 約95mg",
+      "status": "verified"
+    },
+    {
+      "id": "3399003F1111",
+      "name": "リマプロストアルファデクス錠5μg「日医工」",
+      "unit": "錠",
+      "weightG": 0.095,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/530169_3399003F1111_1_07",
+      "sourceText": "質量  | 約95mg",
+      "status": "verified"
+    },
+    {
+      "id": "2329021F1072",
+      "name": "レバミピド錠100mg「ZE」",
+      "unit": "錠",
+      "weightG": 0.175,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/380087_2329021F1072_1_08",
+      "sourceText": "質量 175mg",
+      "status": "verified"
+    },
+    {
+      "id": "2329021F1331",
+      "name": "レバミピド錠100mg「オーツカ」",
+      "unit": "錠",
+      "weightG": 0.175,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/180079_2329021F1331_1_02",
+      "sourceText": "質量  | 約175mg",
+      "status": "verified"
+    },
+    {
+      "id": "3969013F2034",
+      "name": "レパグリニド錠0.5mg「サワイ」",
+      "unit": "錠",
+      "weightG": 0.095,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_3969013F1038_1_04",
+      "sourceText": "質量  | 約95mg",
+      "status": "verified"
+    },
+    {
+      "id": "2431004F2044",
+      "name": "レボチロキシンNa錠25μg「サンド」",
+      "unit": "錠",
+      "weightG": 0.1,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/270428_2431004F1048_1_07",
+      "sourceText": "質量  | 100mg",
+      "status": "verified"
+    },
+    {
+      "id": "2431004F1048",
+      "name": "レボチロキシンNa錠50μg「サンド」",
+      "unit": "錠",
+      "weightG": 0.1,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/270428_2431004F1048_1_07",
+      "sourceText": "質量  | 100mg",
+      "status": "verified"
+    },
+    {
+      "id": "2189017F1154",
+      "name": "ロスバスタチン錠2.5mg「サワイ」",
+      "unit": "錠",
+      "weightG": 0.078,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_2189017F1154_1_11",
+      "sourceText": "質量  | 約78mg",
+      "status": "verified"
+    },
+    {
+      "id": "2189017F1219",
+      "name": "ロスバスタチン錠2.5mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.0803,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_2189017F1219_1_13",
+      "sourceText": "質量  | 80.3mg",
+      "status": "verified"
+    },
+    {
+      "id": "2189017F2150",
+      "name": "ロスバスタチン錠5mg「サワイ」",
+      "unit": "錠",
+      "weightG": 0.156,
+      "approx": true,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_2189017F1154_1_11",
+      "sourceText": "質量  | 約156mg",
+      "status": "verified"
+    },
+    {
+      "id": "2189017F2215",
+      "name": "ロスバスタチン錠5mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.133,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_2189017F1219_1_13",
+      "sourceText": "質量  | 133mg",
+      "status": "verified"
+    },
+    {
+      "id": "3332001F1024",
+      "name": "ワーファリン錠1mg",
+      "unit": "錠",
+      "weightG": 0.19,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300119_3332001D1023_2_01",
+      "sourceText": "質量  | 190mg",
+      "status": "verified"
+    },
+    {
+      "id": "2190024F1040",
+      "name": "沈降炭酸カルシウム錠500mg「三和」",
+      "unit": "錠",
+      "weightG": 0.6,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/300297_2190024F1040_1_05",
+      "sourceText": "質量  | 600mg",
+      "status": "verified"
+    },
+    {
+      "id": "2190029F3037",
+      "name": "炭酸ランタンOD錠250mg「イセイ」",
+      "unit": "錠",
+      "weightG": 0.63,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/130107_2190029F3037_1_06",
+      "sourceText": "質量  | 630mg",
+      "status": "verified"
+    },
+    {
+      "id": "2190029F3088",
+      "name": "炭酸ランタンOD錠250mg「トーワ」",
+      "unit": "錠",
+      "weightG": 0.6,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/480235_2190029F3088_1_02",
+      "sourceText": "質量  | 600mg",
+      "status": "verified"
+    },
+    {
+      "id": "2344009F1086",
+      "name": "酸化マグネシウム錠250mg「ケンエー」",
+      "unit": "錠",
+      "weightG": 0.308,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/260024_2344009F1086_1_10",
+      "sourceText": "質量（mg）  | 308\n",
+      "status": "verified"
+    },
+    {
+      "id": "2344009F2082",
+      "name": "酸化マグネシウム錠330mg「ケンエー」",
+      "unit": "錠",
+      "weightG": 0.407,
+      "approx": false,
+      "source": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/260024_2344009F1086_2_06",
+      "sourceText": "質量 407mg",
+      "status": "verified"
+    }
+  ]
+}
