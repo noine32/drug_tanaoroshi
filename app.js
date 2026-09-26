@@ -45,7 +45,13 @@ function renderResults() {
   const terms = searchTerms($("search").value);
   const matches = state.drugs.filter(drug => {
     const target = normalizeSearch(`${drug.name} ${drug.id}`);
-    return terms.every(term => target.includes(term));
+    return terms.every(term => {
+      if (/^\d+(?:\.\d+)?(?:mg|μg|ug)$/.test(term)) {
+        const position = target.indexOf(term);
+        return position >= 0 && (position === 0 || !/[\d.]/.test(target[position - 1]));
+      }
+      return target.includes(term);
+    });
   });
   $("result-count").textContent = `${matches.length}件`;
   const root = $("results");
