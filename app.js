@@ -10,6 +10,10 @@ function normalizeSearch(value) {
   ).replace(/[\s　・･]/g, "");
 }
 
+function searchTerms(value) {
+  return String(value).normalize("NFKC").trim().split(/[\s　]+/).filter(Boolean).map(normalizeSearch);
+}
+
 function normalizeNumber(value) {
   return String(value).normalize("NFKC").replace(/[，,\s　]/g, "").replace(/[．。]/g, ".");
 }
@@ -38,8 +42,11 @@ function displayWeight(value) { return `${Number(value).toFixed(3)}g`; }
 function displayAmount(value) { return `${Number(value).toLocaleString("ja-JP", { maximumFractionDigits: 4 })}g`; }
 
 function renderResults() {
-  const query = normalizeSearch($("search").value);
-  const matches = state.drugs.filter(drug => normalizeSearch(`${drug.name} ${drug.id}`).includes(query));
+  const terms = searchTerms($("search").value);
+  const matches = state.drugs.filter(drug => {
+    const target = normalizeSearch(`${drug.name} ${drug.id}`);
+    return terms.every(term => target.includes(term));
+  });
   $("result-count").textContent = `${matches.length}件`;
   const root = $("results");
   root.replaceChildren();
@@ -56,7 +63,7 @@ function renderResults() {
     const meta = document.createElement("span"); meta.className = "result-meta";
     meta.textContent = drug.weightG === null ? "重量未確認・数量計算不可" : `${drug.unit}剤重量 ${displayWeight(drug.weightG)}${drug.approx ? "（約）" : ""}${drug.status === "user-provided" ? "（利用者確認値）" : ""} · YJ ${drug.id}`;
     button.append(name, meta);
-    button.addEventListener("click", () => { state.selected = drug; renderSelected(); renderResults(); $("gross").focus(); });
+    button.addEventListener("click", () => { state.selected = drug; $("form-status").textContent = ""; renderSelected(); renderResults(); $("gross").focus(); });
     root.append(button);
   }
 }
@@ -99,7 +106,10 @@ function updateCalculation() {
   if (!result) { box.textContent = "医薬品と重量を入力すると推定数量が表示されます。"; return; }
   box.classList.add("ready");
   const quantity = document.createElement("strong"); quantity.textContent = `${result.quantity.toLocaleString("ja-JP")}${drug.unit}`;
-  box.append(document.createTextNode(`推定数量　`), quantity, document.createTextNode(`　（正味 ${displayAmount(result.net)} ÷ ${displayWeight(drug.weightG)}、計算値 ${result.raw.toFixed(2)}）`));
+  const label = document.createElement("span"); label.textContent = "推定数量";
+  const details = document.createElement("small");
+  details.textContent = `正味 ${displayAmount(result.net)} ÷ 1${drug.unit} ${displayWeight(drug.weightG)} ＝ ${result.raw.toFixed(2)}`;
+  box.replaceChildren(label, quantity, details);
 }
 
 function groupedRows() {
@@ -136,6 +146,7 @@ function renderLedger() {
 }
 
 function normalizeNumericInput(event) {
+  $("form-status").textContent = "";
   const input = event.currentTarget;
   const before = input.value;
   const cursor = input.selectionStart;
@@ -161,6 +172,7 @@ $("measure-form").addEventListener("submit", event => {
   state.ledger.push({ id: drug.id, name: drug.name, unit: drug.unit, quantity: result.quantity, net: result.net, createdAt: new Date().toISOString() });
   saveLedger(); renderLedger();
   $("gross").value = ""; $("tare").value = ""; updateCalculation(); $("gross").focus();
+  $("form-status").textContent = `${drug.name}を${result.quantity.toLocaleString("ja-JP")}${drug.unit}追加しました。`;
 });
 $("print").addEventListener("click", () => { renderLedger(); window.print(); });
 $("clear-ledger").addEventListener("click", () => { if (state.ledger.length && confirm("棚卸し一覧をすべて削除しますか？")) { state.ledger = []; saveLedger(); renderLedger(); } });
