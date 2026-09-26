@@ -30,7 +30,7 @@
         <input id="search" type="search" autocomplete="off" placeholder="例：ろすばすたちん、サワイ、5mg" aria-controls="results">
         <button id="clear-search" class="text-button" type="button">消去</button>
       </div>
-      <p class="hint">部分一致で検索できます。ひらがな・カタカナ、全角・半角を区別しません。</p>
+      <p class="hint">部分一致・空白区切りの複数語で検索できます。ひらがな・カタカナ、全角・半角を区別しません。</p>
       <div id="results" class="results" role="listbox" aria-label="医薬品の検索結果"></div>
     </section>
 
@@ -46,6 +46,7 @@
         <div id="calculation" class="calculation" aria-live="polite">医薬品と重量を入力すると推定数量が表示されます。</div>
         <p id="form-error" class="error" role="alert"></p>
         <button id="add" class="primary-button" type="submit" disabled>棚卸し一覧に追加</button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
       </form>
     </section>
 
@@ -59,11 +60,11 @@
       <div class="table-wrap"><table><thead><tr><th scope="col">医薬品名</th><th scope="col">数量</th><th scope="col" class="no-print">測定重量</th><th scope="col" class="no-print">操作</th></tr></thead><tbody id="ledger"></tbody></table></div>
       <p id="ledger-empty" class="empty-ledger">まだ記録がありません。</p>
       <p id="ledger-total" class="ledger-total"></p>
-      <p class="print-only print-note">数量は添付文書記載の製剤重量を用いた推定値です。</p>
+      <p class="print-only print-note">数量は登録した1錠・1カプセル当たりの重量から算出した推定値です。</p>
     </section>
   </main>
 
-  <footer class="shell footer no-print">製剤重量はPMDA公開の添付文書を参照。個々の製剤重量にはばらつきがあるため、数量は推定値です。<span id="data-date"></span></footer>
+  <footer class="shell footer no-print">製剤重量はPMDA公開の添付文書と利用者確認値を参照。個々の製剤重量にはばらつきがあるため、数量は推定値です。<span id="data-date"></span></footer>
   <script src="app.js" defer></script>
 </body>
 </html>
