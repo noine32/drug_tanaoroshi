@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183b4d">
+  <title>錠剤・カプセル棚卸し</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <div>
+        <p class="eyebrow">PHARMACY INVENTORY</p>
+        <h1>錠剤・カプセル棚卸し</h1>
+        <p class="lead">医薬品を探し、測定重量から数量を記録する</p>
+      </div>
+      <div class="header-stats" id="coverage" aria-live="polite"></div>
+    </div>
+  </header>
+
+  <main class="shell main-grid">
+    <section class="panel search-panel" aria-labelledby="search-heading">
+      <div class="panel-heading">
+        <div><span class="step">01</span><h2 id="search-heading">医薬品を選ぶ</h2></div>
+        <span class="muted" id="result-count"></span>
+      </div>
+      <label for="search">医薬品名・規格・メーカー・YJコード</label>
+      <div class="search-wrap">
+        <input id="search" type="search" autocomplete="off" placeholder="例：ろすばすたちん、サワイ、5mg" aria-controls="results">
+        <button id="clear-search" class="text-button" type="button">消去</button>
+      </div>
+      <p class="hint">部分一致で検索できます。ひらがな・カタカナ、全角・半角を区別しません。</p>
+      <div id="results" class="results" role="listbox" aria-label="医薬品の検索結果"></div>
+    </section>
+
+    <section class="panel measure-panel" aria-labelledby="measure-heading">
+      <div class="panel-heading"><div><span class="step">02</span><h2 id="measure-heading">重量を入力する</h2></div></div>
+      <div id="selected" class="selected empty">左の一覧から医薬品を選択してください。</div>
+      <form id="measure-form" novalidate>
+        <div class="fields">
+          <div><label for="gross">測定重量 <span class="unit">g</span></label><input id="gross" class="numeric" inputmode="decimal" autocomplete="off" placeholder="例：12.345" required></div>
+          <div><label for="tare">容器の重さ <span class="unit">g・任意</span></label><input id="tare" class="numeric" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+        </div>
+        <p class="hint">容器を含めて測定した場合は、その重さを引きます。全角数字は入力時に半角へ変換します。</p>
+        <div id="calculation" class="calculation" aria-live="polite">医薬品と重量を入力すると推定数量が表示されます。</div>
+        <p id="form-error" class="error" role="alert"></p>
+        <button id="add" class="primary-button" type="submit" disabled>棚卸し一覧に追加</button>
+      </form>
+    </section>
+
+    <section class="panel ledger-panel" aria-labelledby="ledger-heading">
+      <div class="panel-heading ledger-heading">
+        <div><span class="step">03</span><h2 id="ledger-heading">棚卸し一覧</h2></div>
+        <div class="actions"><button id="print" type="button" class="secondary-button">一覧を印刷</button><button id="clear-ledger" type="button" class="text-button danger">全件削除</button></div>
+      </div>
+      <p class="hint no-print">同じ医薬品を複数回追加した場合、印刷する一覧では数量を合計します。記録はこのブラウザー内に保存されます。</p>
+      <div class="print-only print-title"><h2>錠剤・カプセル棚卸し一覧</h2><p id="printed-at"></p></div>
+      <div class="table-wrap"><table><thead><tr><th scope="col">医薬品名</th><th scope="col">数量</th><th scope="col" class="no-print">測定重量</th><th scope="col" class="no-print">操作</th></tr></thead><tbody id="ledger"></tbody></table></div>
+      <p id="ledger-empty" class="empty-ledger">まだ記録がありません。</p>
+      <p id="ledger-total" class="ledger-total"></p>
+      <p class="print-only print-note">数量は添付文書記載の製剤重量を用いた推定値です。</p>
+    </section>
+  </main>
+
+  <footer class="shell footer no-print">製剤重量はPMDA公開の添付文書を参照。個々の製剤重量にはばらつきがあるため、数量は推定値です。<span id="data-date"></span></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
