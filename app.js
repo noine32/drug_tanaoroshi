@@ -49,7 +49,11 @@ function saveLedger() {
   catch { $("form-error").textContent = "ブラウザーに保存できませんでした。印刷して記録を残してください。"; }
 }
 
-function displayWeight(value) { return `${Number(value).toFixed(3)}g`; }
+function displayWeight(value) {
+  const digits = Math.abs(value * 1000 - Math.round(value * 1000)) > 1e-8 ? 4 : 3;
+  return `${Number(value).toFixed(digits)}g`;
+}
+function drugCodeLabel(drug) { return drug.id.startsWith("BARA") ? "棚卸ID" : "YJ"; }
 function displayMeasuredWeight(value) { return `${Number(value).toLocaleString("ja-JP", { minimumFractionDigits: 3, maximumFractionDigits: 4 })}g`; }
 function displayAmount(value) { return `${Number(value).toLocaleString("ja-JP", { maximumFractionDigits: 4 })}g`; }
 
@@ -88,8 +92,8 @@ function renderResults() {
     const name = document.createElement("span"); name.className = "result-name"; name.textContent = drug.name;
     const meta = document.createElement("span"); meta.className = "result-meta";
     meta.textContent = drug.weightG === null
-      ? state.manualWeights[drug.id] ? `実測重量 ${displayMeasuredWeight(state.manualWeights[drug.id])}（このブラウザーに保存） · YJ ${drug.id}` : "重量未登録・実測値を入力できます"
-      : `${drug.unit}剤重量 ${displayWeight(drug.weightG)}${drug.approx ? "（約）" : ""}${drug.status === "user-provided" ? "（利用者確認値）" : ""} · YJ ${drug.id}`;
+      ? state.manualWeights[drug.id] ? `実測重量 ${displayMeasuredWeight(state.manualWeights[drug.id])}（このブラウザーに保存） · ${drugCodeLabel(drug)} ${drug.id}` : "重量未登録・実測値を入力できます"
+      : `${drug.unit}剤重量 ${displayWeight(drug.weightG)}${drug.approx ? "（約）" : ""}${drug.status === "user-provided" ? "（利用者確認値）" : ""} · ${drugCodeLabel(drug)} ${drug.id}`;
     button.append(name, meta);
     button.addEventListener("click", () => { state.selected = drug; $("form-status").textContent = ""; renderSelected(); renderResults(); $("gross").focus(); });
     root.append(button);
@@ -106,7 +110,7 @@ function renderSelected() {
   root.className = "selected";
   const name = document.createElement("strong"); name.textContent = drug.name;
   const detail = document.createElement("small");
-  detail.textContent = drug.weightG === null ? `添付文書の重量は未登録です。実測した1${drug.unit}の重量で計算できます。 · YJ ${drug.id}` : `1${drug.unit}当たり ${displayWeight(drug.weightG)}${drug.approx ? "（添付文書では約）" : ""}${drug.status === "user-provided" ? "（利用者確認値・出典未登録）" : ""} · YJ ${drug.id}`;
+  detail.textContent = drug.weightG === null ? `添付文書の重量は未登録です。実測した1${drug.unit}の重量で計算できます。 · ${drugCodeLabel(drug)} ${drug.id}` : `1${drug.unit}当たり ${displayWeight(drug.weightG)}${drug.approx ? "（添付文書では約）" : ""}${drug.status === "user-provided" ? "（利用者確認値・出典未登録）" : ""} · ${drugCodeLabel(drug)} ${drug.id}`;
   root.append(name, detail);
   if (drug.source) {
     const link = document.createElement("a"); link.href = drug.source; link.target = "_blank"; link.rel = "noopener noreferrer"; link.textContent = "PMDA添付文書を確認 ↗";
@@ -166,7 +170,7 @@ function renderLedger() {
     const name = document.createElement("td"); name.textContent = row.name;
     const detail = document.createElement("small");
     const weights = [...row.measuredWeights];
-    detail.textContent = `YJ ${row.id}${weights.length ? ` · 実測1${row.unit} ${weights.map(displayMeasuredWeight).join(" / ")}` : ""}`;
+    detail.textContent = `${drugCodeLabel(row)} ${row.id}${weights.length ? ` · 実測1${row.unit} ${weights.map(displayMeasuredWeight).join(" / ")}` : ""}`;
     name.append(detail);
     const qty = document.createElement("td"); qty.textContent = `${row.quantity.toLocaleString("ja-JP")}${row.unit}`;
     const net = document.createElement("td"); net.className = "no-print"; net.textContent = `${displayAmount(row.net)}${row.measurements > 1 ? `（${row.measurements}回）` : ""}`;
