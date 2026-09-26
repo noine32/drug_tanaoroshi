@@ -54,7 +54,7 @@ function renderResults() {
     button.setAttribute("aria-selected", state.selected?.id === drug.id ? "true" : "false");
     const name = document.createElement("span"); name.className = "result-name"; name.textContent = drug.name;
     const meta = document.createElement("span"); meta.className = "result-meta";
-    meta.textContent = drug.weightG === null ? "重量未確認・数量計算不可" : `${drug.unit}剤重量 ${displayWeight(drug.weightG)}${drug.approx ? "（約）" : ""} · YJ ${drug.id}`;
+    meta.textContent = drug.weightG === null ? "重量未確認・数量計算不可" : `${drug.unit}剤重量 ${displayWeight(drug.weightG)}${drug.approx ? "（約）" : ""}${drug.status === "user-provided" ? "（利用者確認値）" : ""} · YJ ${drug.id}`;
     button.append(name, meta);
     button.addEventListener("click", () => { state.selected = drug; renderSelected(); renderResults(); $("gross").focus(); });
     root.append(button);
@@ -68,7 +68,7 @@ function renderSelected() {
   root.className = "selected";
   const name = document.createElement("strong"); name.textContent = drug.name;
   const detail = document.createElement("small");
-  detail.textContent = drug.weightG === null ? "添付文書から製剤重量を確認できていません。この製品は計算できません。" : `1${drug.unit}当たり ${displayWeight(drug.weightG)}${drug.approx ? "（添付文書では約）" : ""} · YJ ${drug.id}`;
+  detail.textContent = drug.weightG === null ? "添付文書から製剤重量を確認できていません。この製品は計算できません。" : `1${drug.unit}当たり ${displayWeight(drug.weightG)}${drug.approx ? "（添付文書では約）" : ""}${drug.status === "user-provided" ? "（利用者確認値・出典未登録）" : ""} · YJ ${drug.id}`;
   root.append(name, detail);
   if (drug.source) {
     const link = document.createElement("a"); link.href = drug.source; link.target = "_blank"; link.rel = "noopener noreferrer"; link.textContent = "PMDA添付文書を確認 ↗";
