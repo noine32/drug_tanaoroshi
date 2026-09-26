@@ -1,0 +1,934 @@
+{
+  "updated": "2026-09-26",
+  "source": "V_VAN_TanaOroshiList (3).csv",
+  "items": [
+    {
+      "id": "kanpo-162",
+      "name": "【ツ001】ツムラ葛根湯エキス顆粒(医療用)",
+      "shelf": "E-1",
+      "gramsPerPacket": 2.5,
+      "yj": "5200013D1123",
+      "sourceLine": 162
+    },
+    {
+      "id": "kanpo-163",
+      "name": "【ツ007】ツムラ八味地黄丸エキス顆粒(医療用)",
+      "shelf": "E-1",
+      "gramsPerPacket": 2.5,
+      "yj": "5200121D1045",
+      "sourceLine": 163
+    },
+    {
+      "id": "kanpo-164",
+      "name": "【ツ014】ツムラ半夏瀉心湯エキス顆粒(医療用)",
+      "shelf": "E-1",
+      "gramsPerPacket": 2.5,
+      "yj": "5200123D1079",
+      "sourceLine": 164
+    },
+    {
+      "id": "kanpo-165",
+      "name": "【ツ016】ツムラ半夏厚朴湯エキス顆粒(医療用)",
+      "shelf": "E-2",
+      "gramsPerPacket": 2.5,
+      "yj": "5200122D1074",
+      "sourceLine": 165
+    },
+    {
+      "id": "kanpo-166",
+      "name": "【ツ017】ツムラ五苓散エキス顆粒(医療用)",
+      "shelf": "E-2",
+      "gramsPerPacket": 2.5,
+      "yj": "5200048D1070",
+      "sourceLine": 166
+    },
+    {
+      "id": "kanpo-167",
+      "name": "【ツ023】ツムラ当帰芍薬散エキス顆粒(医療用)",
+      "shelf": "E-2",
+      "gramsPerPacket": 2.5,
+      "yj": "5200111D1076",
+      "sourceLine": 167
+    },
+    {
+      "id": "kanpo-168",
+      "name": "【ツ072】ツムラ甘麦大棗湯エキス顆粒(医療用)",
+      "shelf": "E-2",
+      "gramsPerPacket": 2.5,
+      "yj": "5200019D1031",
+      "sourceLine": 168
+    },
+    {
+      "id": "kanpo-172",
+      "name": "【ツ029】ツムラ麦門冬湯エキス顆粒(医療用)",
+      "shelf": "E-3",
+      "gramsPerPacket": 3.0,
+      "yj": "5200119D1030",
+      "sourceLine": 172
+    },
+    {
+      "id": "kanpo-173",
+      "name": "【ツ041】ツムラ補中益気湯エキス顆粒(医療用)",
+      "shelf": "E-3",
+      "gramsPerPacket": 2.5,
+      "yj": "5200131D1065",
+      "sourceLine": 173
+    },
+    {
+      "id": "kanpo-176",
+      "name": "【ツ043】ツムラ六君子湯エキス顆粒(医療用)",
+      "shelf": "E-4",
+      "gramsPerPacket": 2.5,
+      "yj": "5200141D1034",
+      "sourceLine": 176
+    },
+    {
+      "id": "kanpo-177",
+      "name": "【ツ054】ツムラ抑肝散エキス顆粒(医療用)",
+      "shelf": "E-4",
+      "gramsPerPacket": 2.5,
+      "yj": "5200139D1037",
+      "sourceLine": 177
+    },
+    {
+      "id": "kanpo-181",
+      "name": "【ツ062】ツムラ防風通聖散エキス顆粒(医療用)",
+      "shelf": "F-1",
+      "gramsPerPacket": 2.5,
+      "yj": "5200130D1060",
+      "sourceLine": 181
+    },
+    {
+      "id": "kanpo-182",
+      "name": "【ツ068】ツムラ芍薬甘草湯エキス顆粒(医療用)",
+      "shelf": "F-1",
+      "gramsPerPacket": 2.5,
+      "yj": "5200067D1049",
+      "sourceLine": 182
+    },
+    {
+      "id": "kanpo-184",
+      "name": "【ツ100】ツムラ大建中湯エキス顆粒(医療用)",
+      "shelf": "F-2",
+      "gramsPerPacket": 2.5,
+      "yj": "5200092D1020",
+      "sourceLine": 184
+    },
+    {
+      "id": "kanpo-189",
+      "name": "【ツ107】ツムラ牛車腎気丸エキス顆粒(医療用)",
+      "shelf": "F-3",
+      "gramsPerPacket": 2.5,
+      "yj": "5200025D1029",
+      "sourceLine": 189
+    },
+    {
+      "id": "kanpo-190",
+      "name": "【ツ126】ツムラ麻子仁丸エキス顆粒(医療用)",
+      "shelf": "F-3",
+      "gramsPerPacket": 2.5,
+      "yj": "5200136D1033",
+      "sourceLine": 190
+    },
+    {
+      "id": "kanpo-3320",
+      "name": "【ク023】クラシエ当帰芍薬散料エキス細粒",
+      "shelf": "なし",
+      "gramsPerPacket": 3.0,
+      "yj": "5200111C1089",
+      "sourceLine": 3320
+    },
+    {
+      "id": "kanpo-3359",
+      "name": "オースギ加味帰脾湯エキスG",
+      "shelf": "デッド",
+      "gramsPerPacket": 4.0,
+      "yj": "5200016D1020",
+      "sourceLine": 3359
+    },
+    {
+      "id": "kanpo-3360",
+      "name": "オースギ柴胡加竜骨牡蛎湯エキスG",
+      "shelf": "デッド",
+      "gramsPerPacket": 2.5,
+      "yj": "5200050D1027",
+      "sourceLine": 3360
+    },
+    {
+      "id": "kanpo-3361",
+      "name": "オースギ半夏厚朴湯エキスG",
+      "shelf": "デッド",
+      "gramsPerPacket": 1.0,
+      "yj": "5200122D1023",
+      "sourceLine": 3361
+    },
+    {
+      "id": "kanpo-3362",
+      "name": "オースギ抑肝散料エキスTG",
+      "shelf": "デッド",
+      "gramsPerPacket": 2.5,
+      "yj": "5200139D1029",
+      "sourceLine": 3362
+    },
+    {
+      "id": "kanpo-3380",
+      "name": "三和芍薬甘草附子湯エキス細粒",
+      "shelf": "デッド",
+      "gramsPerPacket": 1.5,
+      "yj": "5200068C1021",
+      "sourceLine": 3380
+    },
+    {
+      "id": "kanpo-3381",
+      "name": "太虎堂のきゅう帰調血飲エキス顆粒",
+      "shelf": "デッド",
+      "gramsPerPacket": 2.0,
+      "yj": "5200024D1024",
+      "sourceLine": 3381
+    },
+    {
+      "id": "kanpo-3399",
+      "name": "【ツ020】ツムラ防已黄耆湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200129D1076",
+      "sourceLine": 3399
+    },
+    {
+      "id": "kanpo-3400",
+      "name": "【ツ024】ツムラ加味逍遙散エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200017D1083",
+      "sourceLine": 3400
+    },
+    {
+      "id": "kanpo-3401",
+      "name": "【ツ027】ツムラ麻黄湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200132D1035",
+      "sourceLine": 3401
+    },
+    {
+      "id": "kanpo-3402",
+      "name": "【ツ035】ツムラ四逆散エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200061D1025",
+      "sourceLine": 3402
+    },
+    {
+      "id": "kanpo-3403",
+      "name": "【ツ038】ツムラ当帰四逆加呉茱萸生姜湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200110D1047",
+      "sourceLine": 3403
+    },
+    {
+      "id": "kanpo-3404",
+      "name": "【ツ039】ツムラ苓桂朮甘湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200145D1059",
+      "sourceLine": 3404
+    },
+    {
+      "id": "kanpo-3405",
+      "name": "【ツ047】ツムラ釣藤散エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200101D1030",
+      "sourceLine": 3405
+    },
+    {
+      "id": "kanpo-3406",
+      "name": "【ツ048】ツムラ十全大補湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200069D1048",
+      "sourceLine": 3406
+    },
+    {
+      "id": "kanpo-3407",
+      "name": "【ツ050】ツムラ荊芥連翹湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200027D1052",
+      "sourceLine": 3407
+    },
+    {
+      "id": "kanpo-3408",
+      "name": "【ツ053】ツムラ疎経活血湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200089D1045",
+      "sourceLine": 3408
+    },
+    {
+      "id": "kanpo-3409",
+      "name": "【ツ057】ツムラ温清飲エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200006D1042",
+      "sourceLine": 3409
+    },
+    {
+      "id": "kanpo-3410",
+      "name": "【ツ060】ツムラ桂枝加芍薬湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200032D1045",
+      "sourceLine": 3410
+    },
+    {
+      "id": "kanpo-3411",
+      "name": "【ツ075】ツムラ四君子湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200062D1020",
+      "sourceLine": 3411
+    },
+    {
+      "id": "kanpo-3412",
+      "name": "【ツ076】ツムラ竜胆瀉肝湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200142D1047",
+      "sourceLine": 3412
+    },
+    {
+      "id": "kanpo-3413",
+      "name": "【ツ080】ツムラ柴胡清肝湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200053D1020",
+      "sourceLine": 3413
+    },
+    {
+      "id": "kanpo-3414",
+      "name": "【ツ083】ツムラ抑肝散加陳皮半夏エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200140D1021",
+      "sourceLine": 3414
+    },
+    {
+      "id": "kanpo-3415",
+      "name": "【ツ084】ツムラ大黄甘草湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200090D1030",
+      "sourceLine": 3415
+    },
+    {
+      "id": "kanpo-3416",
+      "name": "【ツ086】ツムラ当帰飲子エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200108D1023",
+      "sourceLine": 3416
+    },
+    {
+      "id": "kanpo-3417",
+      "name": "【ツ089】ツムラ治打撲一方エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200098D1028",
+      "sourceLine": 3417
+    },
+    {
+      "id": "kanpo-3418",
+      "name": "【ツ090】ツムラ清肺湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 3.0,
+      "yj": "5200087D1020",
+      "sourceLine": 3418
+    },
+    {
+      "id": "kanpo-3419",
+      "name": "【ツ091】ツムラ竹じょ温胆湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200097D1023",
+      "sourceLine": 3419
+    },
+    {
+      "id": "kanpo-3420",
+      "name": "【ツ099】ツムラ小建中湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200072D1058",
+      "sourceLine": 3420
+    },
+    {
+      "id": "kanpo-3421",
+      "name": "【ツ103】ツムラ酸棗仁湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200056D1032",
+      "sourceLine": 3421
+    },
+    {
+      "id": "kanpo-3422",
+      "name": "【ツ106】ツムラ温経湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200005D1030",
+      "sourceLine": 3422
+    },
+    {
+      "id": "kanpo-3423",
+      "name": "【ツ108】ツムラ人参養栄湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 3.0,
+      "yj": "5200117D1030",
+      "sourceLine": 3423
+    },
+    {
+      "id": "kanpo-3424",
+      "name": "【ツ109】ツムラ小柴胡湯加桔梗石膏エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200074D1022",
+      "sourceLine": 3424
+    },
+    {
+      "id": "kanpo-3425",
+      "name": "【ツ116】ツムラ茯苓飲合半夏厚朴湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200127D1026",
+      "sourceLine": 3425
+    },
+    {
+      "id": "kanpo-3426",
+      "name": "【ツ124】ツムラ川きゅう茶調散エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200088D1032",
+      "sourceLine": 3426
+    },
+    {
+      "id": "kanpo-3427",
+      "name": "【ツ125】ツムラ桂枝茯苓丸加よく苡仁エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200039D1039",
+      "sourceLine": 3427
+    },
+    {
+      "id": "kanpo-3428",
+      "name": "【ツ136】ツムラ清暑益気湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200085D1020",
+      "sourceLine": 3428
+    },
+    {
+      "id": "kanpo-3429",
+      "name": "【ツ137】ツムラ加味帰脾湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200016D1054",
+      "sourceLine": 3429
+    },
+    {
+      "id": "kanpo-3430",
+      "name": "【ツ138】ツムラ桔梗湯エキス顆粒(医療用)",
+      "shelf": "銀棚",
+      "gramsPerPacket": 2.5,
+      "yj": "5200020D1026",
+      "sourceLine": 3430
+    },
+    {
+      "id": "kanpo-3509",
+      "name": "【ク096】クラシエ柴朴湯エキス細粒",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 2.5,
+      "yj": "5200054C1038",
+      "sourceLine": 3509
+    },
+    {
+      "id": "kanpo-3510",
+      "name": "【ツ002】ツムラ葛根湯加川きゅう辛夷エキス顆粒(医療用)",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 2.5,
+      "yj": "5200015D1084",
+      "sourceLine": 3510
+    },
+    {
+      "id": "kanpo-3511",
+      "name": "【ツ006】ツムラ十味敗毒湯エキス顆粒(医療用)",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 2.5,
+      "yj": "5200070D1105",
+      "sourceLine": 3511
+    },
+    {
+      "id": "kanpo-3512",
+      "name": "【ツ015】ツムラ黄連解毒湯エキス顆粒(医療用)",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 2.5,
+      "yj": "5200011D1078",
+      "sourceLine": 3512
+    },
+    {
+      "id": "kanpo-3513",
+      "name": "【ツ019】ツムラ小青竜湯エキス顆粒(医療用)",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 3.0,
+      "yj": "5200075D1086",
+      "sourceLine": 3513
+    },
+    {
+      "id": "kanpo-3514",
+      "name": "【ツ040】ツムラ猪苓湯エキス顆粒(医療用)",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 2.5,
+      "yj": "5200103D1101",
+      "sourceLine": 3514
+    },
+    {
+      "id": "kanpo-3515",
+      "name": "【ツ061】ツムラ桃核承気湯エキス顆粒(医療用)",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 2.5,
+      "yj": "5200106D1059",
+      "sourceLine": 3515
+    },
+    {
+      "id": "kanpo-3516",
+      "name": "【ツ088】ツムラ二朮湯エキス顆粒(医療用)",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 2.5,
+      "yj": "5200113D1024",
+      "sourceLine": 3516
+    },
+    {
+      "id": "kanpo-3517",
+      "name": "【ツ093】ツムラ滋陰降火湯エキス顆粒(医療用)",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 2.5,
+      "yj": "5200059D1036",
+      "sourceLine": 3517
+    },
+    {
+      "id": "kanpo-3518",
+      "name": "【ツ096】ツムラ柴朴湯エキス顆粒(医療用)",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 2.5,
+      "yj": "5200054D1033",
+      "sourceLine": 3518
+    },
+    {
+      "id": "kanpo-3519",
+      "name": "【ツ104】ツムラ辛夷清肺湯エキス顆粒(医療用)",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 2.5,
+      "yj": "5200080D1044",
+      "sourceLine": 3519
+    },
+    {
+      "id": "kanpo-3520",
+      "name": "【ツ128】ツムラ啓脾湯エキス顆粒(医療用)",
+      "shelf": "薬庫１",
+      "gramsPerPacket": 2.5,
+      "yj": "5200041D1028",
+      "sourceLine": 3520
+    },
+    {
+      "id": "kanpo-3522",
+      "name": "【ク007】クラシエ八味地黄丸料エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200121C1040",
+      "sourceLine": 3522
+    },
+    {
+      "id": "kanpo-3524",
+      "name": "【ク014】クラシエ半夏瀉心湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200123C1081",
+      "sourceLine": 3524
+    },
+    {
+      "id": "kanpo-3525",
+      "name": "【ク016】クラシエ半夏厚朴湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200122C1079",
+      "sourceLine": 3525
+    },
+    {
+      "id": "kanpo-3526",
+      "name": "【ク017】クラシエ五苓散料エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200048C1075",
+      "sourceLine": 3526
+    },
+    {
+      "id": "kanpo-3529",
+      "name": "【ク024】クラシエ加味逍遙散料エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200017C1061",
+      "sourceLine": 3529
+    },
+    {
+      "id": "kanpo-3530",
+      "name": "【ク025】クラシエ桂枝茯苓丸料エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200038C1080",
+      "sourceLine": 3530
+    },
+    {
+      "id": "kanpo-3532",
+      "name": "【ク040】クラシエ猪苓湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200103C1092",
+      "sourceLine": 3532
+    },
+    {
+      "id": "kanpo-3533",
+      "name": "【ク041】クラシエ補中益気湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200131C1078",
+      "sourceLine": 3533
+    },
+    {
+      "id": "kanpo-3535",
+      "name": "【ク062】クラシエ防風通聖散料エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200130C1065",
+      "sourceLine": 3535
+    },
+    {
+      "id": "kanpo-3539",
+      "name": "コタロー安中散エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200001C1036",
+      "sourceLine": 3539
+    },
+    {
+      "id": "kanpo-3541",
+      "name": "コタロー乙字湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200012C1034",
+      "sourceLine": 3541
+    },
+    {
+      "id": "kanpo-3542",
+      "name": "コタロー加味逍遙散エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200017C1037",
+      "sourceLine": 3542
+    },
+    {
+      "id": "kanpo-3543",
+      "name": "コタロー葛根湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200013C1039",
+      "sourceLine": 3543
+    },
+    {
+      "id": "kanpo-3544",
+      "name": "コタロー葛根湯加辛夷川きゅうエキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200015C1038",
+      "sourceLine": 3544
+    },
+    {
+      "id": "kanpo-3545",
+      "name": "コタロー甘麦大棗湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200019C1028",
+      "sourceLine": 3545
+    },
+    {
+      "id": "kanpo-3546",
+      "name": "コタロー桔梗石膏エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200021C1025",
+      "sourceLine": 3546
+    },
+    {
+      "id": "kanpo-3547",
+      "name": "コタロー桂枝加竜骨牡蛎湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200035C1035",
+      "sourceLine": 3547
+    },
+    {
+      "id": "kanpo-3548",
+      "name": "コタロー桂枝加朮附湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200034C1022",
+      "sourceLine": 3548
+    },
+    {
+      "id": "kanpo-3549",
+      "name": "コタロー桂枝加芍薬湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200032C1031",
+      "sourceLine": 3549
+    },
+    {
+      "id": "kanpo-3550",
+      "name": "コタロー桂枝湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200028C1027",
+      "sourceLine": 3550
+    },
+    {
+      "id": "kanpo-3551",
+      "name": "コタロー桂枝茯苓丸料エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200038C1039",
+      "sourceLine": 3551
+    },
+    {
+      "id": "kanpo-3552",
+      "name": "コタロー五積散エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200045C1020",
+      "sourceLine": 3552
+    },
+    {
+      "id": "kanpo-3553",
+      "name": "コタロー呉茱萸湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200046C1025",
+      "sourceLine": 3553
+    },
+    {
+      "id": "kanpo-3554",
+      "name": "コタロー香蘇散エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200043C1021",
+      "sourceLine": 3554
+    },
+    {
+      "id": "kanpo-3555",
+      "name": "コタロー三黄瀉心湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200057C1031",
+      "sourceLine": 3555
+    },
+    {
+      "id": "kanpo-3556",
+      "name": "コタロー柴胡加竜骨牡蛎湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200050C1030",
+      "sourceLine": 3556
+    },
+    {
+      "id": "kanpo-3557",
+      "name": "コタロー柴胡桂枝湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200051C1034",
+      "sourceLine": 3557
+    },
+    {
+      "id": "kanpo-3558",
+      "name": "コタロー十味敗毒湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200070C1037",
+      "sourceLine": 3558
+    },
+    {
+      "id": "kanpo-3559",
+      "name": "コタロー小建中湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200072C1028",
+      "sourceLine": 3559
+    },
+    {
+      "id": "kanpo-3560",
+      "name": "コタロー小柴胡湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200073C1030",
+      "sourceLine": 3560
+    },
+    {
+      "id": "kanpo-3561",
+      "name": "コタロー小青竜湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200075C1030",
+      "sourceLine": 3561
+    },
+    {
+      "id": "kanpo-3562",
+      "name": "コタロー真武湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200083C1026",
+      "sourceLine": 3562
+    },
+    {
+      "id": "kanpo-3563",
+      "name": "コタロー猪苓湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200103C1033",
+      "sourceLine": 3563
+    },
+    {
+      "id": "kanpo-3564",
+      "name": "コタロー桃核承気湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200106C1037",
+      "sourceLine": 3564
+    },
+    {
+      "id": "kanpo-3565",
+      "name": "コタロー当帰四逆加呉茱萸生姜湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200110C1033",
+      "sourceLine": 3565
+    },
+    {
+      "id": "kanpo-3566",
+      "name": "コタロー当帰芍薬散料エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200111C1038",
+      "sourceLine": 3566
+    },
+    {
+      "id": "kanpo-3567",
+      "name": "コタロー排膿散及湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200118C1021",
+      "sourceLine": 3567
+    },
+    {
+      "id": "kanpo-3568",
+      "name": "コタロー麦門冬湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200119C1026",
+      "sourceLine": 3568
+    },
+    {
+      "id": "kanpo-3569",
+      "name": "コタロー八味丸料エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200120C1029",
+      "sourceLine": 3569
+    },
+    {
+      "id": "kanpo-3570",
+      "name": "コタロー半夏厚朴湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200122C1036",
+      "sourceLine": 3570
+    },
+    {
+      "id": "kanpo-3571",
+      "name": "コタロー半夏白朮天麻湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200124C1035",
+      "sourceLine": 3571
+    },
+    {
+      "id": "kanpo-3572",
+      "name": "コタロー半夏瀉心湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200123C1030",
+      "sourceLine": 3572
+    },
+    {
+      "id": "kanpo-3573",
+      "name": "コタロー防風通聖散エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200130C1030",
+      "sourceLine": 3573
+    },
+    {
+      "id": "kanpo-3574",
+      "name": "コタロー防已黄耆湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.5,
+      "yj": "5200129C1038",
+      "sourceLine": 3574
+    },
+    {
+      "id": "kanpo-3575",
+      "name": "コタロー麻杏甘石湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200134C1020",
+      "sourceLine": 3575
+    },
+    {
+      "id": "kanpo-3576",
+      "name": "コタロー麻黄湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200132C1030",
+      "sourceLine": 3576
+    },
+    {
+      "id": "kanpo-3578",
+      "name": "コタロー抑肝散加陳皮半夏エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 3.0,
+      "yj": "5200140C1034",
+      "sourceLine": 3578
+    },
+    {
+      "id": "kanpo-3579",
+      "name": "コタロー苓桂朮甘湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200145C1037",
+      "sourceLine": 3579
+    },
+    {
+      "id": "kanpo-3580",
+      "name": "コタロー芍薬甘草湯エキス細粒",
+      "shelf": "薬庫２",
+      "gramsPerPacket": 2.0,
+      "yj": "5200067C1035",
+      "sourceLine": 3580
+    }
+  ]
+}
