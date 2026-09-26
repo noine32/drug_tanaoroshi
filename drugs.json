@@ -175,11 +175,11 @@
       "id": "1249009F1430",
       "name": "エペリゾン塩酸塩錠50mg「日新」",
       "unit": "錠",
-      "weightG": null,
+      "weightG": 0.14,
       "approx": false,
       "source": "",
-      "sourceText": "",
-      "status": "unverified"
+      "sourceText": "利用者確認値 140mg",
+      "status": "user-provided"
     },
     {
       "id": "3112006M2045",
@@ -415,11 +415,11 @@
       "id": "2329030F1020",
       "name": "タケキャブ錠10mg",
       "unit": "錠",
-      "weightG": null,
+      "weightG": 0.115,
       "approx": false,
       "source": "",
-      "sourceText": "",
-      "status": "unverified"
+      "sourceText": "利用者確認値 115mg",
+      "status": "user-provided"
     },
     {
       "id": "2329030F2027",
@@ -465,11 +465,11 @@
       "id": "2149042F2218",
       "name": "テルミサルタン錠40mg「日医工」",
       "unit": "錠",
-      "weightG": null,
+      "weightG": 0.178,
       "approx": false,
       "source": "",
-      "sourceText": "",
-      "status": "unverified"
+      "sourceText": "利用者確認値 178mg",
+      "status": "user-provided"
     },
     {
       "id": "1190027F1022",
@@ -535,11 +535,11 @@
       "id": "2171017F2172",
       "name": "ニコランジル錠5mg「トーワ」",
       "unit": "錠",
-      "weightG": null,
+      "weightG": 0.05,
       "approx": false,
       "source": "",
-      "sourceText": "",
-      "status": "not-listed"
+      "sourceText": "利用者確認値 50mg",
+      "status": "user-provided"
     },
     {
       "id": "2171014G4118",
@@ -585,11 +585,11 @@
       "id": "2183007G1020",
       "name": "パルモディアXR錠0.2mg",
       "unit": "錠",
-      "weightG": null,
+      "weightG": 0.085,
       "approx": false,
       "source": "",
-      "sourceText": "",
-      "status": "unverified"
+      "sourceText": "利用者確認値 85mg",
+      "status": "user-provided"
     },
     {
       "id": "2316017F2023",
@@ -755,11 +755,11 @@
       "id": "2456001F2023",
       "name": "プレドニゾロン錠1mg(旭化成)",
       "unit": "錠",
-      "weightG": null,
+      "weightG": 0.09,
       "approx": false,
       "source": "",
-      "sourceText": "",
-      "status": "unverified"
+      "sourceText": "利用者確認値 90mg",
+      "status": "user-provided"
     },
     {
       "id": "2456001F1434",
@@ -865,11 +865,11 @@
       "id": "4490026F2288",
       "name": "モンテルカスト錠10mg「日医工」",
       "unit": "錠",
-      "weightG": null,
+      "weightG": 0.204,
       "approx": false,
       "source": "",
-      "sourceText": "",
-      "status": "unverified"
+      "sourceText": "利用者確認値 204mg",
+      "status": "user-provided"
     },
     {
       "id": "4490026F2296",
