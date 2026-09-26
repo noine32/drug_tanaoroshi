@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#183b4d">
   <title>錠剤・カプセル棚卸し</title>
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
   <header class="site-header">
@@ -38,6 +38,11 @@
       <div class="panel-heading"><div><span class="step">02</span><h2 id="measure-heading">重量を入力する</h2></div></div>
       <div id="selected" class="selected empty">左の一覧から医薬品を選択してください。</div>
       <form id="measure-form" novalidate>
+        <div id="manual-weight-field" class="manual-weight-field" hidden>
+          <label for="manual-weight">実測した1錠・1カプセルの重量 <span class="unit">g</span></label>
+          <input id="manual-weight" class="numeric" inputmode="decimal" autocomplete="off" placeholder="例：0.185" aria-describedby="manual-weight-hint">
+          <p id="manual-weight-hint" class="hint">1個だけを容器の重さを除いて量ってください。一覧に追加すると、このブラウザーに重量を保存します。製剤ごとの重量差に注意してください。</p>
+        </div>
         <div class="fields">
           <div><label for="gross">測定重量 <span class="unit">g</span></label><input id="gross" class="numeric" inputmode="decimal" autocomplete="off" placeholder="例：12.345" required></div>
           <div><label for="tare">容器の重さ <span class="unit">g・任意</span></label><input id="tare" class="numeric" inputmode="decimal" autocomplete="off" placeholder="0"></div>
@@ -60,11 +65,11 @@
       <div class="table-wrap"><table><thead><tr><th scope="col">医薬品名</th><th scope="col">数量</th><th scope="col" class="no-print">測定重量</th><th scope="col" class="no-print">操作</th></tr></thead><tbody id="ledger"></tbody></table></div>
       <p id="ledger-empty" class="empty-ledger">まだ記録がありません。</p>
       <p id="ledger-total" class="ledger-total"></p>
-      <p class="print-only print-note">数量は登録した1錠・1カプセル当たりの重量から算出した推定値です。</p>
+      <p class="print-only print-note">数量は登録した1錠・1カプセル当たりの重量から算出した推定値です。「実測」は1個の測定重量を使用しています。</p>
     </section>
   </main>
 
   <footer class="shell footer no-print">製剤重量はPMDA公開の添付文書と利用者確認値を参照。個々の製剤重量にはばらつきがあるため、数量は推定値です。<span id="data-date"></span></footer>
-  <script src="app.js?v=3" defer></script>
+  <script src="app.js?v=4" defer></script>
 </body>
 </html>
