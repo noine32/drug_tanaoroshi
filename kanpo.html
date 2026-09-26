@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183b4d">
+  <title>漢方薬の棚卸し</title>
+  <link rel="stylesheet" href="style.css?v=6">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <div>
+        <p class="eyebrow">PHARMACY INVENTORY</p>
+        <h1>漢方薬の棚卸し</h1>
+        <p class="lead">包数を入力し、分包された薬剤の合計gを計算する</p>
+      </div>
+      <div class="header-stats" id="kanpo-coverage" aria-live="polite"></div>
+    </div>
+    <nav class="shell site-tabs" aria-label="棚卸しの種類">
+      <a href="index.html">錠剤・カプセル</a>
+      <a href="kanpo.html" aria-current="page">漢方薬</a>
+    </nav>
+  </header>
+
+  <main class="shell main-grid">
+    <section class="panel search-panel" aria-labelledby="kanpo-search-heading">
+      <div class="panel-heading"><div><span class="step">01</span><h2 id="kanpo-search-heading">漢方薬を選ぶ</h2></div><span class="muted" id="kanpo-result-count"></span></div>
+      <label for="kanpo-search">医薬品名・棚1・YJコード</label>
+      <div class="search-wrap">
+        <input id="kanpo-search" type="search" autocomplete="off" placeholder="例：葛根湯、つむら、E-1" aria-controls="kanpo-results">
+        <button id="kanpo-clear-search" class="text-button" type="button">消去</button>
+      </div>
+      <p class="hint">部分一致・空白区切りの複数語に対応します。ひらがな・カタカナ、全角・半角を区別しません。</p>
+      <div id="kanpo-results" class="results" role="listbox" aria-label="漢方薬の検索結果"></div>
+    </section>
+
+    <section class="panel measure-panel" aria-labelledby="kanpo-entry-heading">
+      <div class="panel-heading"><div><span class="step">02</span><h2 id="kanpo-entry-heading">包数を入力する</h2></div></div>
+      <div id="kanpo-selected" class="selected empty">左の一覧から漢方薬を選択してください。</div>
+      <form id="kanpo-form" novalidate>
+        <label for="packet-count">棚卸しした包数 <span class="unit">包</span></label>
+        <input id="packet-count" class="packet-input" inputmode="numeric" autocomplete="off" placeholder="例：24" required>
+        <p class="hint">0包も記録できます。全角数字は半角に変換します。</p>
+        <div id="kanpo-calculation" class="calculation" aria-live="polite">漢方薬と包数を入力すると合計gが表示されます。</div>
+        <p id="kanpo-error" class="error" role="alert"></p>
+        <button id="kanpo-add" class="primary-button" type="submit" disabled>棚卸し一覧に追加</button>
+        <p id="kanpo-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="panel ledger-panel" aria-labelledby="kanpo-ledger-heading">
+      <div class="panel-heading ledger-heading">
+        <div><span class="step">03</span><h2 id="kanpo-ledger-heading">漢方薬の棚卸し一覧</h2></div>
+        <div class="actions"><button id="kanpo-print" class="secondary-button" type="button" disabled>一覧を印刷</button><button id="kanpo-clear-ledger" class="text-button danger" type="button">全件削除</button></div>
+      </div>
+      <p class="hint no-print">同じ薬品を再入力すると包数を更新します。表示と印刷は元CSVの棚1順です。記録はこのブラウザー内に保存されます。</p>
+      <div class="print-only print-title"><h2>漢方薬の棚卸し一覧</h2><p id="kanpo-printed-at"></p></div>
+      <div class="table-wrap"><table class="kanpo-table"><thead><tr><th scope="col">棚1</th><th scope="col">医薬品名</th><th scope="col">包数</th><th scope="col">1包</th><th scope="col">合計g</th><th scope="col" class="no-print">操作</th></tr></thead><tbody id="kanpo-ledger"></tbody></table></div>
+      <p id="kanpo-empty" class="empty-ledger">まだ記録がありません。</p>
+      <p id="kanpo-total" class="ledger-total"></p>
+      <p class="print-only print-note">1包当たりの重量は棚卸しCSVの医薬品名末尾にあるH値を使用しています。</p>
+    </section>
+  </main>
+  <footer class="shell footer no-print">1包当たりのgは棚卸しCSVの末尾のH値から取得しました。<span id="kanpo-data-date"></span></footer>
+  <script src="kanpo.js?v=1" defer></script>
+</body>
+</html>
